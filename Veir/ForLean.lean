@@ -5,6 +5,7 @@ public import Std.Data.HashMap
 
 public section
 
+
 /--
   We compare `ByteArray`s by with lexicographic ordering.
 -/
