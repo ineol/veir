@@ -29,6 +29,7 @@ def UInt8.isHexDigit (c : UInt8) : Bool :=
 def ByteArray.getD (ba : ByteArray) (i : Nat) (default : UInt8) : UInt8 :=
   if h : i < ba.size then ba[i] else default
 
+
 /--
   Convert a hexadecimal digit character to its Nat value.
 -/
